@@ -1,3 +1,5 @@
+import React, { Component }  from 'react';
+
 import { ArrowLeftOutlined, ArrowRightOutlined, Face } from "@material-ui/icons";
 import { useState } from "react";
 import styled from "styled-components";
@@ -16,6 +18,7 @@ import {
     Room,
     Twitter,
   } from "@material-ui/icons";
+import { Link } from 'react-scroll';
 
 
 
@@ -25,15 +28,15 @@ import {
 const Footer1 = () => {
 
   return (
-<div className="FooterContainer" >
-<div className="onelogo">
+<div className="FooterContainer" id="contactlta7t" >
+<Link className="onelogo" to="navbar" spy={true} smooth={true} duration={1000}>
    
     <img src={logo} className="editlogo" />
 
     
 
 
-</div>
+</Link>
 <div className="services">
     <div className="titleservice">Our services</div>
 <div className="unservice">services</div>

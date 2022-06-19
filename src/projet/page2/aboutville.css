@@ -39,3 +39,88 @@ width: fit-content;
     font-size: 1.2rem;
     letter-spacing: 2px;
     }
+    .meryeem{
+        position: relative;
+
+        margin-top: 30px;
+     
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      
+      
+    }
+
+    .cadreContainer3{
+        text-decoration: none;
+        text-decoration: none;
+    
+        height: 350px;
+        width: 270px;
+        background-image: url("../assets/oran.jpeg");
+        background-size: cover;
+        border-radius: 5px;
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: start;
+        z-index: 999;
+    }
+    .cadreContainer1{
+        text-decoration: none;
+    
+        height: 350px;
+        width: 270px;
+        background-image: url("../assets/licensed-image.jpeg");
+        background-size: cover;
+        border-radius: 5px;
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: start;
+        z-index: 999;
+    }
+    .cadreContainer2{
+        text-decoration: none;
+    
+        height: 350px;
+        width: 270px;
+        background-image: url("../assets/Rectangle\ 95.png");
+        background-size: cover;
+        border-radius: 5px;
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: start;
+        z-index: 999;
+    }
+    .place{
+        color: #fff;
+        font-size: 1.2rem;
+        font-family: 'Merienda One', cursive;
+    margin-top: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    }
+    .placa{
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.9rem;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid #fff;
+    }
+    .daira{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: rgb(227, 219, 219);
+        opacity: 0.5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ss{
+        font-size: 2rem;
+        color: #134A49;
+    }

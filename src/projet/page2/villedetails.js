@@ -1,11 +1,15 @@
+import React, { Component }  from 'react';
+
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 import { useState } from "react";
 
 import "./villedetails.css"
+import ReplayIcon from '@material-ui/icons/Replay';
 
 import oran from "../assets/oran.jpeg"
 import Navbar from "../page1/Navbar";
 import Rotate90DegreesCcwIcon from '@material-ui/icons/Rotate90DegreesCcw';
+import { Link } from 'react-router-dom';
 
 const VilleDetails = () => {
 
@@ -41,19 +45,14 @@ virtual visit
 
 
 <div className="imageville111"  >
-<div className="ville" >Oran</div>
 </div>
 <div className="imageville11">
-<div className="ville" >Setif</div>
 </div>
 <div className="imageville31">
-<div className="ville" >Bejaia</div>
 </div>
 <div className="imageville131">
-<div className="ville" >Bejaia</div>
 </div>
 <div className="imageville331">
-<div className="ville" >Bejaia</div>
 </div>
 
 
@@ -63,6 +62,11 @@ virtual visit
 
 
 
+        </div>
+        <div className='story' >
+            <Link to="/oran" className='styleit'>Back 
+<ReplayIcon style={{marginLeft:'15px'}} />
+            </Link>
         </div>
      
     </div>

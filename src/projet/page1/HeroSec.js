@@ -1,9 +1,12 @@
+import React, { Component }  from 'react';
+
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 import { useState } from "react";
 import styled from "styled-components";
 import logocolors from "./../assets/logocolors.png";
 import "./HeroSec.css"
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
+import { Link } from 'react-router-dom';
 
 
 
@@ -33,9 +36,9 @@ Algeria
     <div className="villeContaine">
 
 
-    <div className="imageville1"  >
+    <Link  className="imageville1"  to="/oran" >
 <div className="ville" >Oran</div>
-</div>
+</Link>
 <div className="imageville2">
 <div className="ville" >Setif</div>
 </div>

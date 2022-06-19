@@ -1,8 +1,11 @@
+import React, { Component }  from 'react';
+
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 import { useState } from "react";
 import styled from "styled-components";
 import logocolors from "./../assets/logocolors.png";
 import "./Navbar.css"
+import { Link } from 'react-scroll';
 
 
 
@@ -10,7 +13,7 @@ const Navbar = () => {
 
 
   return (
-<div className="navbarContainer">
+<div id="navbar" className="navbarContainer">
     <div className="leftsideNavbar">
 <img src={logocolors} className="logoStyling" />
 <div className="logoName" >
@@ -24,9 +27,9 @@ const Navbar = () => {
     <li style={{borderBottom: "1.5px solid #fff" }}>
 Home
     </li>
-    <li>
+    <Link to="contactlta7t" spy={true} smooth={true} duration={1000}>
 Contact us
-    </li>
+    </Link>
     <li>
 About us
     </li>

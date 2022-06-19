@@ -1,5 +1,5 @@
 .VilleDetailsContainer{
-    height: 130vh;
+    height: 135vh;
     width: 100%;
     position: relative;
 }
@@ -78,6 +78,7 @@ color: #fff;
     font-size: 1.1rem;
 color: #fff;
 margin-left: 100px;
+margin-bottom: 20px;
 
 }
 .santa{
@@ -125,47 +126,47 @@ margin-left: 20px;
 }
 
 .villeContaine1{
-    margin-top: 27px;
+   
+    height: 70%;
     display: flex;
-    
+    align-items: center;
     display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    grid-gap: 15px;
    overflow-x: hidden;
+   position: relative;
  
 }
 .imageville111{
-    margin-top: 30px;
-    left: -100px;
-    position: absolute;
-    height: 200px;
-    width: 280px;
-    background-image: url("../assets/oran.jpeg");
-    background-size: cover;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: end;
-    z-index: 999;
-    background-color: aqua;
-    bottom: 10px;
+   
+        position: absolute;
+        left: -100px;
+        height: 200px;
+        width: 280px;
+        background-image: url("../assets/bejaia.jpg");
+        background-size: cover;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+
 }
 .imageville11{
-    position: absolute;
-    left: 210px;
-    height: 200px;
-    width: 280px;
-    background-image: url("../assets/oran.jpeg");
-    background-size: cover;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: end;
-    z-index: 999;
-    background-color: aqua;
-    bottom: 10px;
+  
+        position: absolute;
+        left: 210px;
+        height: 200px;
+        width: 280px;
+        background-image: url("../assets/Oran_fort_santa_cruz_ON067.jpg");
+        background-size: cover;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    
+    
 }
 .imageville21{
 
@@ -184,7 +185,7 @@ margin-left: 20px;
     left: 520px;
     height: 200px;
     width: 280px;
-    background-image: url("../assets/bejaia.jpg");
+    background-image: url("../assets/800px-Fort_Santa_Cruz_Oran1.jpg");
     background-size: cover;
     border-radius: 5px;
     display: flex;
@@ -198,7 +199,7 @@ margin-left: 20px;
     left: 830px;
     height: 200px;
     width: 280px;
-    background-image: url("../assets/bejaia.jpg");
+    background-image: url("../assets/Fort_Santa_Cruz.jpg");
     background-size: cover;
     border-radius: 5px;
     display: flex;
@@ -211,7 +212,7 @@ margin-left: 20px;
     left: 1140px;
     height: 200px;
     width: 280px;
-    background-image: url("../assets/bejaia.jpg");
+    background-image: url("../assets/800px-Fort_Santa_Cruz_Oran1.jpg");
     background-size: cover;
     border-radius: 5px;
     display: flex;
@@ -224,4 +225,28 @@ margin-left: 20px;
     font-size: 1.2rem;
     font-family: 'Merienda One', cursive;
 margin-bottom: 20px;
+}
+.story{
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 40px;
+}
+.styleit{
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Merienda One', cursive;
+background-color: #134A47;
+border: none;
+font-size: 1.1rem;
+margin-top: 20px;
+border-radius: 5px;
+
+
 }

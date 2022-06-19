@@ -76,6 +76,7 @@ font-family: 'Merienda One', cursive;
        position: relative;
     }
     .imageville1{
+        text-decoration: none;
 position: absolute;
         height: 100%;
         width: 250px;
