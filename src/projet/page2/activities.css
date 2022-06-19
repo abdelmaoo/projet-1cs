@@ -1,0 +1,53 @@
+.ActivitiesContainer{
+    height: 120vh;
+    width: 100%;
+    
+}
+.activitiesHero{
+height: 80%;
+margin: 40px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.activitiesHeroTop{
+flex: 0.49;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.leftTop{
+flex: 0.35;
+height: 100%;
+background-image: url("../assets/83091671_759684044539740_8663337541593726976_n.jpg");
+background-size: cover;
+border-radius: 7px;
+}
+
+
+.rightTop{
+flex: 0.64;
+height: 100%;
+background-image: url("../assets/Algeria-is-ready-to-host-the-Mediterranean-Games-750x375.png");
+background-size: cover;
+border-radius: 7px;
+}
+
+.leftt{
+    flex: 0.48;
+    height: 100%;
+    background-image: url("../assets/images.jpeg");
+    background-size: cover;
+    border-radius: 7px;
+    }
+    
+    
+    .rightt{
+    flex: 0.51;
+    height: 100%;
+    background-image: url("../assets/index.jpeg");
+    background-size: cover;
+    border-radius: 7px;
+    }

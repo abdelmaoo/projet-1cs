@@ -1,0 +1,95 @@
+.navbarContainer{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+.navbarContainer1{
+    height: 100%;
+flex: 0.33 ;    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navbarContainer1Shape{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 100%;
+}
+.navbarContainer1Input{
+    border: 0.5px solid rgb(149, 148, 148);
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    height: 50%;
+
+    
+}
+.inputStyle{
+    padding-left: 10px;
+    height: 100%;
+
+    border: none;
+background-color: transparent;}
+.inputStyle::placeholder{
+color: rgb(149, 148, 148);
+}
+.searchIcon{
+    color: rgb(149, 148, 148);
+    font-size: small;
+}
+select{
+    background-color: transparent;
+    height: 50%;
+    color: rgb(149, 148, 148);
+    border: 0.5px solid rgb(149, 148, 148);
+    font-weight: 500;
+
+}
+option{
+    font-weight: 500;
+    background-color: transparent;
+    height: 50%;
+    color: rgb(149, 148, 148);
+
+}
+.navbarContainer2{
+    height: 100%;
+    flex: 0.33 ; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        font-weight: 600;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+}
+.navbarContainer3{
+    height: 100%;
+flex: 0.33 ;    
+display: flex;
+align-items: center;
+justify-content: flex-end;
+
+}
+.navbarContainer3Shape{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 100%;
+}
+.shoppingCard{
+    position: relative;
+}
+.shop{
+    position: absolute;
+}
+.badge{
+    position: absolute;
+    color: red;
+}

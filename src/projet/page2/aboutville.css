@@ -1,0 +1,41 @@
+.aboutusContainer{
+    height: fit-content;
+    width: 100%;
+    
+}
+.heroAboutus{
+    margin: 40px;
+}
+.about{
+display: flex;
+flex-direction: column;
+}
+.lfog{
+color: black;
+font-family: 'Merienda One', cursive;
+font-size: 1rem;
+}
+.lta7t{
+    padding-right: 20px;
+width: fit-content;
+    color: black;
+    
+    font-family: 'Merienda One', cursive;
+    border-bottom: 5px solid black;
+    font-size: 2.5rem;
+    
+}
+.villedesc{
+    margin-top: 20px;
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 5.1vh;
+    font-family: poppins;
+
+}
+.lfog1{
+    color: black;
+    font-family: 'Merienda One', cursive;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    }

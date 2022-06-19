@@ -1,0 +1,25 @@
+.pageoneContainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../assets/pexels-krivec-ales-552785.jpg");
+    background-size: cover;
+   {/* filter: blur(1px); */} 
+    
+}
+.imaage{
+
+}
+.leftsidePageone{
+    height: 100%;
+    background-color: blue;
+    flex: 0.3;
+}
+
+.rightsidePageone{
+    height: 100%;
+    background-color: blueviolet;
+flex: 0.7;
+}
+

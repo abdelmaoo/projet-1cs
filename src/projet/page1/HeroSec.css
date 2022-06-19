@@ -1,0 +1,148 @@
+.HeroSecContainer{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+height: 70%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.heroLeft{
+flex: 0.3;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.heroRight{
+    flex: 0.625;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.heroLeftTop{
+flex: 0.2;
+width: 60%;
+margin-bottom: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+.heroLeftBottom{
+    flex: 0.1;
+    width: 60%;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    border: 1.5px solid #fff;
+    border-radius: 5px;
+    justify-content: space-between;
+  
+    padding: 5px 20px 5px 20px;
+    }
+    .explore{
+        font-size: 1.1rem;
+        color: #fff;
+        font-family: 'Merienda One', cursive;
+    }
+    .icon{
+        color: #fff;  
+    }
+    .visit{
+color: #fff;
+font-size: 0.8rem;
+font-family: 'Merienda One', cursive;
+font-weight: 400;
+    }
+    .algeria{
+color: #fff;
+font-size: 1.8rem;
+font-family: 'Merienda One', cursive;
+    }
+    .villeContaine{
+        flex: 0.85;
+        display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-gap: 15px;
+       overflow-x: hidden;
+       position: relative;
+    }
+    .imageville1{
+position: absolute;
+        height: 100%;
+        width: 250px;
+        background-image: url("../assets/oran.jpeg");
+        background-size: cover;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        z-index: 999;
+    }
+    .imageville2{
+        position: absolute;
+z-index: 1;
+left: 310px;
+        height: 100%;
+        width: 250px;
+        background-image: url("../assets/setif.jpg");
+        background-size: cover;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }
+    .imageville3{
+        position: absolute;
+z-index: 1;
+left: 620px;
+        height: 100%;
+        width: 250px;
+        background-image: url("../assets/bejaia.jpg");
+        background-size: cover;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }
+    .ville{
+        color: #fff;
+        font-size: 1.2rem;
+        font-family: 'Merienda One', cursive;
+margin-bottom: 20px;
+    }
+
+    .slider{
+        flex: 0.1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sliderhero{
+        flex: 0.2;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .point{
+        display: flex;
+       height: 5px;
+       width: 5px;
+       background-color: #fff;
+       border-radius: 50%;
+    }
+    .arrow{
+        color: #fff;
+    }
+ 
