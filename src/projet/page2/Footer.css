@@ -78,3 +78,7 @@ align-items: center;
    
 
 }
+a{
+    text-decoration: none;
+    color:rgb(244, 233, 233) ;
+}

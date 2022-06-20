@@ -39,18 +39,18 @@ const Footer1 = () => {
 </Link>
 <div className="services">
     <div className="titleservice">Our services</div>
-<div className="unservice">services</div>
-<div className="unservice">services</div>
-<div className="unservice">services</div>
-<div className="unservice">services</div>
+<div className="unservice">Carte numerique</div>
+<div className="unservice">Itineraires</div>
+<div className="unservice"><a href='/'>Visites guidees</a></div>
+<div className="unservice">Login</div>
 
 </div>
 <div className="services">
 <div className="titleservice">About us</div>
-<div className="unservice">About us</div>
-<div className="unservice">About us</div>
-<div className="unservice">About us</div>
-<div className="unservice">About us</div>
+<div className="unservice">Contact us</div>
+<div className="unservice">FAQ</div>
+{/* <div className="unservice">About us</div>
+<div className="unservice">About us</div> */}
 </div>
 <div className="servicess">
 <div className="titleservice">Contact us</div>
