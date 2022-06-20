@@ -119,9 +119,9 @@ Si vous avez la chance de visiter la ville d'Oran, nous vous proposons  de visit
 </div>
 <div className='meryeem'>
   
-<Arrow direction="left" onClick={() => handleClick("left")}>
+<div  className='boutton' direction="left" onClick={() => handleClick("left")}>
         <ArrowLeftOutlined />
-      </Arrow>
+      </div>
 
 <Link to='/oran/santacruz' className="cadreContainer3" >
 
@@ -148,8 +148,10 @@ Si vous avez la chance de visiter la ville d'Oran, nous vous proposons  de visit
 
 </div>
 
-
-    <ArrowRightOutlined  direction="right" onClick={() => handleClick("left")}  className='ss'/>
+<div  className='boutton'>
+<ArrowRightOutlined  direction="right" onClick={() => handleClick("left")}  className='ss'/>  
+</div>
+   
 
 </div>
 

@@ -1,5 +1,5 @@
 .FooterContainer{
-    height: 50vh;
+    height: 30vh;
     width: 100%;
     background-image: url("../assets//milo.jpg");
     background-size: cover;
@@ -47,7 +47,8 @@ justify-content: center;
     margin-bottom: 12px;
 }
 .sm{
-    margin-left: -30px;
+    background-color: red;
+    margin-left: -80px;
     width: 80%;
     display: flex;
     align-items: center;
@@ -55,12 +56,12 @@ justify-content: center;
     color: rgb(244, 233, 233);
 }
 .servicess{
-    margin-top: 70px;
     height: 70%;
     width: 100%;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
+margin-top: 70px;
 
 }
 .namelogo{

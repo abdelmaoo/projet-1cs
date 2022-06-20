@@ -26,7 +26,6 @@ Algeria
     </div>
 </div>
 <button className="heroLeftBottom">
-
     <select className="explore">
         <option class="opt" value="Explore" disabled selected>Explore</option>
         <option class="opt" value="volvo"><a href='./oran'>Oran</a></option>
@@ -35,7 +34,7 @@ Algeria
         <option class="opt" value="audi">Bejaia</option>
     </select>
 
-<ArrowRightOutlined className="icon" />
+{/* <ArrowRightOutlined className="icon" /> */}
 </button>
 </div>
 <div className="heroRight">

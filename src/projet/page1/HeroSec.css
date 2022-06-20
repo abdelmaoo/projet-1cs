@@ -46,7 +46,8 @@ justify-content: space-between;
     border-radius: 5px;
     justify-content: space-between;
   
-    padding: 5px 20px 5px 20px;
+    
+    padding: 5px 10px 5px 10px;
     }
     .explore{
         position: relative;
@@ -145,8 +146,10 @@ margin-bottom: 20px;
         justify-content: center;
     }
     .sliderhero{
-        flex: 0.2;
+        flex: 0.3;
         display: flex;
+        padding-top: 30px;
+        padding-right: 330px;
         align-items: center;
         justify-content: space-evenly;
     }

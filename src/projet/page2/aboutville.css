@@ -124,3 +124,13 @@ width: fit-content;
         font-size: 2rem;
         color: #134A49;
     }
+    .boutton{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background-color: rgb(174, 171, 171);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0.4;
+    }
