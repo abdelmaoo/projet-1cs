@@ -28,12 +28,19 @@ const VilleDetails = () => {
         <br/>
         <br/>
             <div className="ktiba">
-              Le fort de Santa-Cruz est un fort situé à Oran, en Algérie. Érigé par les Espagnols entre 1577 et 1604.
+            Le fort de Santa-Cruz est un fort situé à Oran, en Algérie. Érigé par les Espagnols entre 1577 et 1604. Le fort a été théâtre de combats sanglants opposant Ottomans et Maures vassaux aux Espagnols. Ce fort se situe sur la crête du massif de l'Aïdour. Sa situation en faisait alors un point stratégique. 
             </div>
 
         </div>
 
-      </div>
+        </div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <div className="leftcote">
 <div className="leftcotefils">
 

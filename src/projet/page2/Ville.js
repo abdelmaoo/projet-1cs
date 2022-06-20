@@ -21,7 +21,7 @@ const Pagetwo = () => {
     <Navbar />
     <div className="villeText">
         <div className="oran">Oran</div>
-        <div className="explore" >Explore the second paris</div>
+        <div className="explore2" >Explore the second paris</div>
     </div>
 </div>
 
