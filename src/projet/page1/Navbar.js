@@ -24,15 +24,22 @@ const Navbar = () => {
     </div>
 <div className="left">
 <ul>
-    <li style={{borderBottom: "1.5px solid #fff" }}>
+    <a href="/" class="bruh" >
+        <li style={{borderBottom: "1.5px solid #fff" }}>
 Home
-    </li>
+        </li>
+    </a>
     <Link to="contactlta7t" spy={true} smooth={true} duration={1000}>
-Contact us
+        <li>
+            Contact us
+        </li>
     </Link>
+<Link to="contactlta7t" spy={true} smooth={true} duration={1000}>
     <li>
-About us
+        About us
     </li>
+</Link>
+
 </ul>
 </div>
 <div className="right">

@@ -83,11 +83,11 @@ margin-bottom: 20px;
 }
 .santa{
     padding-bottom: 10px;
-border-bottom: 2px solid #fff;
+    text-decoration: underline 3px;
+/* border-bottom: 2px solid #fff; */
 font-size: 1.8rem;
 }
 .ktiba{
-    margin-top: -15px;
     font-family: 'Merienda One', cursive;
     font-size: 1.1rem;
 color: #fff;
@@ -120,6 +120,7 @@ justify-content: center;
 color: #fff;
 font-size: 1.2rem;
 font-family: 'Merienda One', cursive;
+transition: all 0.3s ease 0s;
 }
 .degree{
 margin-left: 20px;
@@ -127,14 +128,19 @@ margin-left: 20px;
 
 .villeContaine1{
    
-    height: 70%;
+    /* height: 70%;
     display: flex;
-    align-items: center;
+    align-items: center; */
     display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-columns: auto auto auto auto auto;
    grid-gap: 15px;
-   overflow-x: hidden;
-   position: relative;
+   /* overflow-x: hidden;
+   position: relative; */
+   justify-content: space-evenly; 
+   align-content: space-evenly;
+   background-color: rgba(255, 255, 255, 0.25);
+   margin: 40px;
+   padding: 20px 50px;
  
 }
 .imageville111{
@@ -249,4 +255,52 @@ margin-top: 20px;
 border-radius: 5px;
 
 
+}
+
+
+#b420{
+    color: white;
+text-decoration-line: none;
+}
+.pic{
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#cadre{
+    visibility: hidden;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+.frame{
+    position: fixed;
+    background: #fff;
+    top: 15vh;
+    left: 15vw;
+    width: 70vw;
+    height: 70vh;
+    border-radius: 15px;
+    /* margin:  0; */
+}
+.exitbtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 40px;
+    width: 40px;
+    font-size: x-large;
+    border-radius: 100%;
+    color: #fff;
+    background-color: #134A47;
+}
+.google{
+    width:100%; 
+    height:100%;
+    border:0;
 }

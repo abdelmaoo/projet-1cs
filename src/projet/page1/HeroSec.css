@@ -46,13 +46,28 @@ justify-content: space-between;
     border-radius: 5px;
     justify-content: space-between;
   
-    padding: 5px 20px 5px 20px;
+    
+    padding: 5px 10px 5px 10px;
     }
     .explore{
+        position: relative;
         font-size: 1.1rem;
         color: #fff;
+        background-color: rgba(0, 0, 0, 0);
+        border:none ;
+        width: 100%;
         font-family: 'Merienda One', cursive;
     }
+    .opt{
+        position: relative;
+        font-size: 1.1rem;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0);
+        border:none ;
+        width: 100%;
+        font-family: 'Merienda One', cursive;
+    }
+
     .icon{
         color: #fff;  
     }
@@ -131,8 +146,10 @@ margin-bottom: 20px;
         justify-content: center;
     }
     .sliderhero{
-        flex: 0.2;
+        flex: 0.3;
         display: flex;
+        padding-top: 30px;
+        padding-right: 330px;
         align-items: center;
         justify-content: space-evenly;
     }

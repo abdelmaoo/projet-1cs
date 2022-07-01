@@ -26,10 +26,15 @@ Algeria
     </div>
 </div>
 <button className="heroLeftBottom">
-<div className="explore">
-    Explore
-</div>
-<ArrowRightOutlined className="icon" />
+    <select className="explore">
+        <option class="opt" value="Explore" disabled selected>Explore</option>
+        <option class="opt" value="volvo"><a href='./oran'>Oran</a></option>
+        <option class="opt" value="saab">Sidi Bel Abbes</option>
+        <option class="opt" value="opel">Setif</option>
+        <option class="opt" value="audi">Bejaia</option>
+    </select>
+
+{/* <ArrowRightOutlined className="icon" /> */}
 </button>
 </div>
 <div className="heroRight">
